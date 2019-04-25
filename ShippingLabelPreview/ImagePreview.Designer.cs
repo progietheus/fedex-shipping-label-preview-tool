@@ -44,15 +44,15 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // Form2
+            // ImagePreview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(584, 861);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "ImagePreview";
+            this.Text = "Image Viewer";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

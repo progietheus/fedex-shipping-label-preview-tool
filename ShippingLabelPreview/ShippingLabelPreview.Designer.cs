@@ -105,21 +105,21 @@
             this.radio_peripheral.Checked = true;
             this.radio_peripheral.Location = new System.Drawing.Point(15, 13);
             this.radio_peripheral.Name = "radio_peripheral";
-            this.radio_peripheral.Size = new System.Drawing.Size(72, 17);
+            this.radio_peripheral.Size = new System.Drawing.Size(101, 17);
             this.radio_peripheral.TabIndex = 5;
             this.radio_peripheral.TabStop = true;
-            this.radio_peripheral.Text = "Peripheral";
+            this.radio_peripheral.Text = "Peripheral Label";
             this.radio_peripheral.UseVisualStyleBackColor = true;
             this.radio_peripheral.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radio_manual
             // 
             this.radio_manual.AutoSize = true;
-            this.radio_manual.Location = new System.Drawing.Point(93, 13);
+            this.radio_manual.Location = new System.Drawing.Point(122, 12);
             this.radio_manual.Name = "radio_manual";
-            this.radio_manual.Size = new System.Drawing.Size(60, 17);
+            this.radio_manual.Size = new System.Drawing.Size(172, 17);
             this.radio_manual.TabIndex = 6;
-            this.radio_manual.Text = "Manual";
+            this.radio_manual.Text = "Fedex Label (Base64 to Image)";
             this.radio_manual.UseVisualStyleBackColor = true;
             this.radio_manual.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 

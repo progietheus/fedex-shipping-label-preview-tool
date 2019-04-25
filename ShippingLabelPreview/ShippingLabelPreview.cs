@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
             printDocument1.DefaultPageSettings.Margins.Top = 5;
             printDocument1.DefaultPageSettings.Margins.Left = 20;
             printDocument1.DefaultPageSettings.Margins.Bottom = 0;
-            printDocument1.PrinterSettings.PrinterName = "<Network Printer Location";
+            printDocument1.PrinterSettings.PrinterName = "\\\\NetworkPrinter\\Path";
 
             printDocument1.PrintPage += delegate (object sender1, PrintPageEventArgs e1)
             {
@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
                 DrawTopLabel(g);
                 // draw the datagrid using the DrawDataGrid method passing the Graphics surface
                 bool more = dataGridPrinter1.DrawDataGrid(g);
-                // if there are more pages, set the flag to cause the form to trigger another print            page event
+                // if there are more pages, set the flag to cause the form to trigger another print page event
                 if (more == true)
                 {
                     e1.HasMorePages = true;
